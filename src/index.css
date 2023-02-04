@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap');
+
 * {
   padding: 0;
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
   font-size: 62.5%;
+}
+
+.btn {
+  border: none;
+  opacity: 0.9;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.8rem;
+  padding: 7px 13px;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+  rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  transition: transform 0.5s ease;
+  background: linear-gradient(135deg, #7f6de3 0%, #11aaf1 100%);
 }
 
 body {
@@ -41,20 +59,4 @@ a {
   font-weight: 600;
   transition: all 1s ease-in-out;
   position: relative;
-}
-
-.btn {
-  border: none;
-  opacity: 0.9;
-  outline: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 1.8rem;
-  padding: 7px 13px;
-  border-radius: 4px;
-  letter-spacing: 0.3px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-  transition: transform 0.5s ease;
-  background: linear-gradient(135deg, #7f6de3 0%, #11aaf1 100%);
 }
