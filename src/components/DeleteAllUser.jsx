@@ -1,5 +1,5 @@
 import React from "react";
 
 export const DeleteAllUser = () => {
-  return <div>DeleteAllUser</div>;
+  return <button>Delete All User</button>;
 };
